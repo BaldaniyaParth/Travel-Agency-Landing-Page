@@ -768,6 +768,9 @@ footer ul li h6 {
 
 /* Media Query 411px */
 @media screen and (max-width: 411px) {
+  .offers {
+    margin-top: 100px;
+  }
   .destination .img_bx .msg:nth-child(2) {
     left: 50%;
   }
@@ -788,9 +791,6 @@ footer ul li h6 {
 @media screen and (max-width: 400px) {
   header .trip_bx .travel_bx {
     top: 70px;
-  }
-  .offers {
-    margin-top: 100px;
   }
 }
 
