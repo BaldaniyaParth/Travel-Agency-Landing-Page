@@ -769,7 +769,7 @@ footer ul li h6 {
 /* Media Query 411px */
 @media screen and (max-width: 411px) {
   .offers {
-    margin-top: 100px;
+    margin-top: 180px;
   }
   .destination .img_bx .msg:nth-child(2) {
     left: 50%;
