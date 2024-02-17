@@ -691,7 +691,7 @@ footer ul li h6 {
   }
   .offers {
     width: 85%;
-    margin-top: 0px;
+    margin-top: 80px;
   }
   .destination {
     width: 100%;
@@ -791,6 +791,9 @@ footer ul li h6 {
 @media screen and (max-width: 400px) {
   header .trip_bx .travel_bx {
     top: 70px;
+  }
+  .offers {
+    margin-top: 100px;
   }
 }
 
