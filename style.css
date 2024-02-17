@@ -247,7 +247,7 @@ header .trip_bx .travel_bx .cards .card .btn_city h5 span {
   width: 70%;
   height: auto;
   margin: auto;
-  margin-top: 130px;
+  margin-top: 100px;
   transition: 0.5s linear;
 }
 .offers h1 {
@@ -691,7 +691,7 @@ footer ul li h6 {
   }
   .offers {
     width: 85%;
-    margin-top: 80px;
+    margin-top: 0px;
   }
   .destination {
     width: 100%;
@@ -768,9 +768,9 @@ footer ul li h6 {
 
 /* Media Query 411px */
 @media screen and (max-width: 411px) {
-  .offers {
+  /* .offers {
     margin-top: 180px;
-  }
+  } */
   .destination .img_bx .msg:nth-child(2) {
     left: 50%;
   }
@@ -792,7 +792,13 @@ footer ul li h6 {
   header .trip_bx .travel_bx {
     top: 70px;
   }
-  .offers {
+  /* .offers {
     margin-top: 100px;
+  } */
+}
+
+@media screen and (max-width:375px){
+  .offers {
+      margin-top: 15px;
   }
 }
